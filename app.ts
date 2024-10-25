@@ -203,3 +203,23 @@ enum days {
 
 //********Symbol************/
 //gives unique id,
+// let s1 = Symbol("d1");
+// let s2 = Symbol();
+// console.warn(s1);
+// let data = {
+//   [s1]: "some data",
+// };
+// console.warn(data[s1]);
+
+// let demoF1 = Symbol("d1");
+// class demo {
+//   [demoF1]() {
+//     return "Method using Symbol";
+//   }
+// }
+// let d1 = new demo();
+// // if we use symbol in method then we use [] instead of .
+// console.warn(d1[demoF1]());
+
+//************JSCONFIG FILE************* */
+// jsconfig file- contain configuration related settings like setting input and output file

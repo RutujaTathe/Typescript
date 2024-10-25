@@ -1,3 +1,4 @@
+"use strict";
 // import { classicNameResolver } from "typescript";
 // export {};
 // class App {
@@ -165,8 +166,26 @@ var days;
 // whichday = days.mon;
 // console.warn(whichday);
 // console.warn(whichday === "Monday");
-function whichdays(day) {
-    return day;
-}
-console.warn(whichdays(days.sat));
-//********************/
+// function whichdays(day: days) {
+//   return day;
+// }
+// console.warn(whichdays(days.sat));
+//********Symbol************/
+//gives unique id,
+// let s1 = Symbol("d1");
+// let s2 = Symbol();
+// console.warn(s1);
+// let data = {
+//   [s1]: "some data",
+// };
+// console.warn(data[s1]);
+// let demoF1 = Symbol("d1");
+// class demo {
+//   [demoF1]() {
+//     return "Method using Symbol";
+//   }
+// }
+// let d1 = new demo();
+// // if we use symbol in method then we use [] instead of .
+// console.warn(d1[demoF1]());
+//************JSCONFIG FILE************* */
