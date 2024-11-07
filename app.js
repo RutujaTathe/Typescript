@@ -1,4 +1,3 @@
-"use strict";
 // import { classicNameResolver } from "typescript";
 // export {};
 // class App {
@@ -175,7 +174,7 @@ var days;
 // let s1 = Symbol("d1");
 // let s2 = Symbol();
 // console.warn(s1);
-// let data = {
+// let data = {Do you want to enable Server-Side Rendering (SSR) and Static Site Gen
 //   [s1]: "some data",
 // };
 // console.warn(data[s1]);
@@ -189,3 +188,13 @@ var days;
 // // if we use symbol in method then we use [] instead of .
 // console.warn(d1[demoF1]());
 //************JSCONFIG FILE************* */
+// jsconfig file- contain configuration related settings like setting input and output file
+//for declaring diffrent types of element in array
+// let role: [string, string, number, boolean] = ["rutuja", "tathe", 23, true];
+// role.push("nikita");
+// console.warn(role);
+//-------------------------------------------------
+//declaring literals in typescript
+var data;
+data = "rutuja";
+console.warn(data);

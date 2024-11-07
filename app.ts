@@ -206,7 +206,7 @@ enum days {
 // let s1 = Symbol("d1");
 // let s2 = Symbol();
 // console.warn(s1);
-// let data = {
+// let data = {Do you want to enable Server-Side Rendering (SSR) and Static Site Gen
 //   [s1]: "some data",
 // };
 // console.warn(data[s1]);
@@ -223,3 +223,14 @@ enum days {
 
 //************JSCONFIG FILE************* */
 // jsconfig file- contain configuration related settings like setting input and output file
+
+//for declaring diffrent types of element in array
+// let role: [string, string, number, boolean] = ["rutuja", "tathe", 23, true];
+// role.push("nikita");
+// console.warn(role);
+
+//-------------------------------------------------
+//declaring literals in typescript
+let data: "rutuja" | "nikita" | "ankita";
+data = "rutuja";
+console.warn(data);
